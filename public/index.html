@@ -1,0 +1,286 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+
+    <!-- tailwindcss -->
+    <link rel="stylesheet" href="css/output.css" />
+
+    <!-- alpinejs -->
+    <script defer src="https://cdn.jsdelivr.net/npm/alpinejs@3.x.x/dist/cdn.min.js"></script>
+
+    <!-- goggle font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&family=Protest+Guerrilla&display=swap"
+      rel="stylesheet"
+    />
+
+    <style>
+      .protest-guerrilla-regular {
+  font-family: "Protest Guerrilla", sans-serif;
+  font-weight: 200;
+  font-style: normal;
+}
+
+
+
+
+.oswald-explain {
+  font-family: "Oswald", system-ui;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
+}
+
+    </style>
+  </head>
+  <body class="relative">
+    <div class="grid-rows-3 gird">
+      <!-- header -->
+      <header class="w-full sticky top-0 z-30 border-b-2 border-slate-800">
+        <nav
+          class="flex bg-gradient-to-b from-indigo-300 lg:p-3 items-center shadow-sm box-border h-max"
+        >
+          <div class="w-1/4 flex items-center text-nowrap">
+            <img src="logo/logo.png" alt="" class="w-16 h-16" />
+            <h3
+              class="lg:text-2xl protest-guerrilla-regular text-xl font-semibold capitalize text-nowrap shadow-sm md:text-2xl"
+            >
+              recover Pain
+            </h3>
+          </div>
+
+          <div class="w-1/2 lg:flex hidden items-center justify-center text-nowrap">
+            <ul class="">
+              <li class="inline-block border border-black rounded-full py-1 px-5 mx-6 shadow-md">
+                <a href="">Home</a>
+              </li>
+              <li class="inline-block border border-black rounded-full py-1 px-5 mx-6 shadow-md">
+                <a href="#about">about</a>
+              </li>
+              <li class="inline-block border border-black rounded-full py-1 px-5 mx-6 shadow-md">
+                <a href="">how it workd</a>
+              </li>
+              <li class="inline-block border border-black rounded-full py-1 px-5 mx-6 shadow-md">
+                <a href="">testimonials</a>
+              </li>
+            </ul>
+          </div>
+
+          <div class="w-1/4 lg:flex hidden justify-end items-center pr-4">
+            <div class="">
+              <h1 class="text-2xl border font-semibold border-black rounded-full py-3 px-6 shadow-md">
+                Contact us
+              </h1>
+            </div>
+          </div>
+
+          <div class="lg:hidden absolute right-0 mr-5 cursor-pointer">
+            <img src="logo/menu.png" alt="" class="w-7 h-7 toggle" />
+          </div>
+
+          <div
+            class="lg:hidden absolute bg-blue-300 w-full p-2 top-full justify-end menu hidden z-40"
+          >
+            <ul class="p-5 w-full capitalize">
+              <li
+                class="mb-6 hover:bg-slate-500 bg-slate-300 rounded-xl p-2 text-xl hover:text-white"
+              >
+                <a href=""></a>home
+              </li>
+              <li
+                class="mb-6 hover:bg-slate-500 bg-slate-300 rounded-xl p-2 text-xl hover:text-white"
+              >
+                <a href=""></a>about
+              </li>
+              <li
+                class="mb-6 hover:bg-slate-500 bg-slate-300 rounded-xl p-2 text-xl hover:text-white"
+              >
+                <a href=""></a>how it wokrs
+              </li>
+              <li
+                class="mb-6 hover:bg-slate-500 bg-slate-300 rounded-xl p-2 text-xl hover:text-white"
+              >
+                <a href=""></a>testimonials
+              </li>
+              <hr />
+              <li
+                class="p-2 border border-black rounded-full py-2 px-4 text-center font-semibold text-2xl"
+              >
+                <a href=""></a>contac us
+              </li>
+            </ul>
+          </div>
+        </nav>
+      </header>
+
+      <!-- main -->
+      <main class="w-full lg:mt-5 mt-3 relative md:p-3">
+        <!-- home -->
+        <section
+          class="lg:flex lg:flex-row flex flex-col md:flex-row md:flex justify-center lg:gap-2 h-max w-full md:gap-2"
+        >
+          <div class="lg:w-1/2 bg-purple-300 lg:pl-3 lg:pb-4 pr-2 pb-4 w-full md:pl-4">
+            <div
+              class="w-full h-max capitalize text-nowrap text-center md:text-start lg:text-start"
+            >
+              <h1 class="lg:text-8xl text-6xl w-full ">personalized</h1>
+              <h1 class="lg:text-8xl text-6xl w-full">care for</h1>
+              <h1 class="lg:text-8xl text-6xl w-full">chronic pain</h1>
+            </div>
+
+            <div class="flex text-wrap justify-center items-center lg:w-10/12 p-2 mt-2 md:w-10/12">
+              <img src="img/siluet.png" alt="" class="w-16 h-16 mr-4 animate-spin" />
+              <p class="text-justify text-xs lg:text-base oswald-explain">
+                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Culpa commodi odit at vero
+                explicabo repellendus cupiditate ducimus. Autem, sed quam.
+              </p>
+            </div>
+
+            <div
+              class="flex lg:justify-evenly justify-evenly md:justify-start md:gap-10 mt-5 lg:gap-8 lg:w-max w-full items-center lg:pl-3 capitalize text-nowrap"
+            >
+              <div class="">
+                <h1
+                  class="protest-guerrilla-regular lg:text-2xl border border-black py-2 px-4 rounded-full text-center bg-yellow-300 w-full"
+                >
+                  Book a sesion
+                </h1>
+              </div>
+
+              <div class="">
+                <h1
+                  class="protest-guerrilla-regular lg:text-2xl border border-black py-2 px-4 rounded-full text-center bg-black text-yellow-300 w-full"
+                >
+                  our aproauch
+                </h1>
+              </div>
+            </div>
+          </div>
+
+          <div class="lg:w-1/2 w-full bg-yellow-500">
+            <img src="img/pain2.jpg" alt="" class="w-full bg-cover h-full" />
+          </div>
+        </section>
+
+        <!-- comunity -->
+        <section
+          class="w-full lg:flex lg:flex-row flex flex-col md:flex-row md:flex lg:mt-7 gap-2 h-max mt-3 md:gap-5 lg:gap-2"
+        >
+          <div class="lg:w-1/2 w-full lg:flex lg:flex-row p-2 flex flex-col">
+            <div
+              class="lg:w-max w-full lg:border-r-2 border-b-2 border-black h-full flex items-center lg:pr-4 pb-3 lg:pb-0"
+            >
+              <div class="lg:w-max lg:text-start text-center w-full text-nowrap bg-pink-400 rotate-3">
+                <h1 class="text-3xl capitalize w-full font-semibold font-serif">join our comunity</h1>
+                <h1 class="text-5xl hidden capitalize font-serif font-bold">join our</h1>
+                <h1 class="text-5xl hidden capitalize font-serif font-bold">comunity</h1>
+              </div>
+            </div>
+
+            <div class="w-full lg:pl-5 flex items-center">
+              <p class="text-justify border-t-2 border-black p-3 lg:p-0 oswald-explain">
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ipsam quo ad qui facilis
+                nihil minima dicta quia sunt quas Lorem ipsum dolor sit amet consectetur.
+                aspernatur. Lorem
+              </p>
+            </div>
+          </div>
+
+          <div
+            class="lg:w-1/2 w-full flex items-center justify-evenly bg-pink-300 p-4 box-border gap-2 md:gap-2"
+          >
+            <div class="flex flex-col lg:flex-row items-center justify-center gap-3">
+              <img
+                src="img/star.png"
+                alt=""
+                class="lg:w-20 lg:h-20 w-16 h-16 border rounded-full lg:py-4 lg:px-4 py-2 px-2 bg-black animate-pulse md:animate-bounce lg:animate-pulse"
+              />
+              <div class="text-center">
+                <h1 class="lg:text-3xl text-xl font-semibold">2.245+</h1>
+                <p>client helped</p>
+              </div>
+            </div>
+
+            <div class="flex flex-col lg:flex-row items-center justify-center gap-3">
+              <img
+                src="img/follow.png"
+                alt=""
+                class="lg:w-20 lg:h-20 w-16 h-16 border rounded-full lg:py-4 lg:px-4 px-2 py-2 bg-black animate-pulse md:animate-bounce lg:animate-pulse"
+              />
+
+              <div class="text-center">
+                <h1 class="lg:text-3xl text-xl font-semibold">6.563k</h1>
+                <h1>online following</h1>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <!-- about -->
+        <section
+          class="w-full bg-green-300 lg:flex lg:flex-nowrap lg:flex-row-reverse lg:mt-4 p-4 lg:gap-3 lg:h-max md:flex-col md:flex-nowrap md:mt-4 mt-5"
+          id="about"
+        >
+          <div
+            class="h-max w-full lg:w-1/2 md:w-full lg:self-center bg-gradient-to-l from-cyan-200 shadow-sm md:mb-6 lg:pt-2 border-b-1 border-black"
+          >
+            <h1
+              class="text-3xl font-semibold border-b-4 border-black mt-4 capitalize mx-auto text-center md:text-4xl lg:border-none bg-pink-400 w-max p-3 lg:px-6 md:px-6 px-10 shadow-md rotate-1 lg:font-serif"
+            >
+              about us
+            </h1>
+            <p class="p-2 text-justify md:text-xl oswald-explain">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi necessitatibus non modi
+              iste commodi assumenda sint placeat dolorem quidem perferendis!
+            </p>
+
+            <img src="img/company.jpg" alt="" />
+          </div>
+
+          <div
+            class="w-full mt-6 lg:mt-0 lg:w-1/2 bg-gradient-to-b md:w-full md:mt-0 from-indigo-300 to-indigo-100 lg:h-full md:h-max lg:p-6 p-5 shadow-sm"
+          >
+            <div class="w-max mb-6 h-max mx-auto">
+              <h1
+                class="text-xl md:text-2xl bg-purple-300 font-semibold drop-shadow-md font-mono text-center p-2 box-border -rotate-2"
+              >
+                some pictures about us
+              </h1>
+            </div>
+            <div
+              class="flex flex-col w-full gap-5 lg:grid lg:grid-cols-2 lg:mt-3 lg:gap-5 md:grid md:grid-cols-2"
+            >
+              <img src="img/service (1).jpg" alt="" class="bg-cover shadow-md" />
+              <img src="img/service (2).jpg" alt="" class="bg-cover shadow-md" />
+              <img src="img/service (3).jpg" alt="" class="bg-cover shadow-md" />
+              <img src="img/service (4).jpg" alt="" class="bg-cover shadow-md" />
+            </div>
+            <div class="mt-2 w-full h-max text-justify md:text-xl">
+              <p class="oswald-explain">
+                Lores quasi, iro quas voluptatibus! Vitae doloremque magnam voluptate veritatis quam
+                voluptatem, tenetur est, error suscipit delectus neque.
+              </p>
+            </div>
+          </div>
+        </section>
+
+        <!-- how it works -->
+        <section></section>
+
+        <!-- testimonials -->
+        <section></section>
+      </main>
+
+      <!-- footer -->
+      <footer></footer>
+
+      <!-- script -->
+      <script src="script/script.js"></script>
+    </div>
+  </body>
+</html>
