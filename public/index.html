@@ -19,36 +19,35 @@
       rel="stylesheet"
     />
 
+    <!-- aos -->
+    <link href="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.css" rel="stylesheet" />
+
     <style>
       .protest-guerrilla-regular {
-  font-family: "Protest Guerrilla", sans-serif;
-  font-weight: 200;
-  font-style: normal;
-}
+        font-family: "Protest Guerrilla", sans-serif;
+        font-weight: 200;
+        font-style: normal;
+      }
 
-
-
-
-.oswald-explain {
-  font-family: "Oswald", system-ui;
-  font-optical-sizing: auto;
-  font-weight: 500;
-  font-style: normal;
-}
-
+      .oswald-explain {
+        font-family: "Oswald", system-ui;
+        font-optical-sizing: auto;
+        font-weight: 500;
+        font-style: normal;
+      }
     </style>
   </head>
   <body class="relative">
     <div class="grid-rows-3 gird">
       <!-- header -->
-      <header class="w-full sticky top-0 z-30 border-b-2 border-slate-800">
+      <header data-aos="fade-down" class="w-full relative">
         <nav
           class="flex bg-gradient-to-b from-indigo-300 lg:p-3 items-center shadow-sm box-border h-max"
         >
           <div class="w-1/4 flex items-center text-nowrap">
             <img src="logo/logo.png" alt="" class="w-16 h-16" />
             <h3
-              class="lg:text-2xl protest-guerrilla-regular text-xl font-semibold capitalize text-nowrap shadow-sm md:text-2xl"
+              class="lg:text-2xl font-sans text-xl font-semibold capitalize text-nowrap shadow-sm md:text-2xl"
             >
               recover Pain
             </h3>
@@ -73,7 +72,9 @@
 
           <div class="w-1/4 lg:flex hidden justify-end items-center pr-4">
             <div class="">
-              <h1 class="text-2xl border font-semibold border-black rounded-full py-3 px-6 shadow-md">
+              <h1
+                class="text-2xl border font-semibold border-black rounded-full py-3 px-6 shadow-md"
+              >
                 Contact us
               </h1>
             </div>
@@ -126,14 +127,20 @@
         >
           <div class="lg:w-1/2 bg-purple-300 lg:pl-3 lg:pb-4 pr-2 pb-4 w-full md:pl-4">
             <div
+              data-aos="fade-up"
+              data-aos-duration="1000"
               class="w-full h-max capitalize text-nowrap text-center md:text-start lg:text-start"
             >
-              <h1 class="lg:text-8xl text-6xl w-full ">personalized</h1>
+              <h1 class="lg:text-8xl text-6xl w-full">personalized</h1>
               <h1 class="lg:text-8xl text-6xl w-full">care for</h1>
               <h1 class="lg:text-8xl text-6xl w-full">chronic pain</h1>
             </div>
 
-            <div class="flex text-wrap justify-center items-center lg:w-10/12 p-2 mt-2 md:w-10/12">
+            <div
+              data-aos="fade-right"
+              data-aos-delay="500"
+              class="flex text-wrap justify-center items-center lg:w-10/12 p-2 mt-2 md:w-10/12"
+            >
               <img src="img/siluet.png" alt="" class="w-16 h-16 mr-4 animate-spin" />
               <p class="text-justify text-xs lg:text-base oswald-explain">
                 Lorem ipsum, dolor sit amet consectetur adipisicing elit. Culpa commodi odit at vero
@@ -146,7 +153,7 @@
             >
               <div class="">
                 <h1
-                  class="protest-guerrilla-regular lg:text-2xl border border-black py-2 px-4 rounded-full text-center bg-yellow-300 w-full"
+                  class="font-semibold lg:text-2xl border border-yellow-300 py-2 px-4 rounded-full text-center bg-yellow-300 w-full shadow-sm"
                 >
                   Book a sesion
                 </h1>
@@ -154,7 +161,7 @@
 
               <div class="">
                 <h1
-                  class="protest-guerrilla-regular lg:text-2xl border border-black py-2 px-4 rounded-full text-center bg-black text-yellow-300 w-full"
+                  class="font-semibold lg:text-2xl border border-black py-2 px-4 rounded-full text-center bg-black text-yellow-300 w-full shadow-sm"
                 >
                   our aproauch
                 </h1>
@@ -162,7 +169,7 @@
             </div>
           </div>
 
-          <div class="lg:w-1/2 w-full bg-yellow-500">
+          <div data-aos="fade-left" class="lg:w-1/2 w-full bg-yellow-500">
             <img src="img/pain2.jpg" alt="" class="w-full bg-cover h-full" />
           </div>
         </section>
@@ -175,14 +182,18 @@
             <div
               class="lg:w-max w-full lg:border-r-2 border-b-2 border-black h-full flex items-center lg:pr-4 pb-3 lg:pb-0"
             >
-              <div class="lg:w-max lg:text-start text-center w-full text-nowrap bg-pink-400 rotate-3">
-                <h1 class="text-3xl capitalize w-full font-semibold font-serif">join our comunity</h1>
+              <div
+                class="lg:w-max lg:text-start text-center w-full text-nowrap bg-pink-400 rotate-3"
+              >
+                <h1 class="text-3xl capitalize w-full font-semibold font-serif">
+                  join our comunity
+                </h1>
                 <h1 class="text-5xl hidden capitalize font-serif font-bold">join our</h1>
                 <h1 class="text-5xl hidden capitalize font-serif font-bold">comunity</h1>
               </div>
             </div>
 
-            <div class="w-full lg:pl-5 flex items-center">
+            <div data-aos="fade-up" class="w-full lg:pl-5 flex items-center">
               <p class="text-justify border-t-2 border-black p-3 lg:p-0 oswald-explain">
                 Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ipsam quo ad qui facilis
                 nihil minima dicta quia sunt quas Lorem ipsum dolor sit amet consectetur.
@@ -194,7 +205,10 @@
           <div
             class="lg:w-1/2 w-full flex items-center justify-evenly bg-pink-300 p-4 box-border gap-2 md:gap-2"
           >
-            <div class="flex flex-col lg:flex-row items-center justify-center gap-3">
+            <div
+              data-aos="fade-left"
+              class="flex flex-col lg:flex-row items-center justify-center gap-3"
+            >
               <img
                 src="img/star.png"
                 alt=""
@@ -206,7 +220,10 @@
               </div>
             </div>
 
-            <div class="flex flex-col lg:flex-row items-center justify-center gap-3">
+            <div
+              data-aos="fade-left"
+              class="flex flex-col lg:flex-row items-center justify-center gap-3"
+            >
               <img
                 src="img/follow.png"
                 alt=""
@@ -227,6 +244,7 @@
           id="about"
         >
           <div
+            data-aos="fade-left"
             class="h-max w-full lg:w-1/2 md:w-full lg:self-center bg-gradient-to-l from-cyan-200 shadow-sm md:mb-6 lg:pt-2 border-b-1 border-black"
           >
             <h1
@@ -243,6 +261,8 @@
           </div>
 
           <div
+            data-aos="fade-right"
+           
             class="w-full mt-6 lg:mt-0 lg:w-1/2 bg-gradient-to-b md:w-full md:mt-0 from-indigo-300 to-indigo-100 lg:h-full md:h-max lg:p-6 p-5 shadow-sm"
           >
             <div class="w-max mb-6 h-max mx-auto">
@@ -270,7 +290,65 @@
         </section>
 
         <!-- how it works -->
-        <section></section>
+        <section class="w-full flex flex-col justify-center mt-5 bg-blue-200">
+          <div class="flex flex-col justify-center mt-3 mb-2">
+            <div class="my-0 mx-auto">
+              <p class="w-max bg-purple-300 py-1 px-4">services</p>
+            </div>
+            <h1 class="text-2xl capitalize font-semibold text-center">how we help our client</h1>
+          </div>
+
+          <div class="p-5 flex flex-col gap-5">
+            <div class="border border-slate-800">
+              <div>
+                <img src="img/service (4).jpg" alt="" class="bg-cover" />
+              </div>
+
+              <div class="p-4">
+                <div class="flex w-full relative items-center">
+                  <h1 class="text-xl capitalize bg-slate-900 w-max text-white p-1">
+                    lower back pain
+                  </h1>
+                  <h1 class="w-max bg-white text-slate-700 px-2 absolute right-0">case</h1>
+                </div>
+
+                <p class="text-justify">
+                  Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptate corporis
+                  dolorum officia, recusandae iusto blanditiis quas velit repellendus, temporibus
+                  voluptatibus saepe eos sunt cupiditate voluptatem tempore quaerat earum sint odit.
+                  <span
+                    class="font-semibold bg-slate-900 w-max ml-2 text-white cursor-pointer hover:bg-white hover:text-slate-900"
+                    ><a href="">learn more</a></span
+                  >
+                </p>
+              </div>
+            </div>
+            <div class="border border-slate-800">
+              <div>
+                <img src="img/service (1).jpg" alt="" class="bg-cover" />
+              </div>
+
+              <div class="p-4">
+                <div class="flex w-full relative items-center">
+                  <h1 class="text-xl capitalize bg-slate-900 w-max text-white p-1">
+                    upper back pain
+                  </h1>
+                  <h1 class="w-max bg-white text-slate-700 px-2 absolute right-0">case</h1>
+                </div>
+
+                <p class="text-justify">
+                  Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptate corporis
+                  dolorum officia, recusandae iusto blanditiis quas velit repellendus, temporibus
+                  voluptatibus saepe eos sunt cupiditate voluptatem tempore quaerat earum sint odit.
+                  <span
+                    class="font-semibold bg-slate-900 w-max ml-2 text-white cursor-pointer hover:bg-white hover:text-slate-900"
+                    ><a href="">learn more</a></span
+                  >
+                </p>
+              </div>
+            </div>
+          </div>
+        </section>
 
         <!-- testimonials -->
         <section></section>
@@ -278,9 +356,20 @@
 
       <!-- footer -->
       <footer></footer>
-
-      <!-- script -->
-      <script src="script/script.js"></script>
     </div>
+
+    <!-- script -->
+    <script src="script/script.js"></script>
+
+    <!-- aos -->
+    <script src="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.js"></script>
+
+    <script>
+      AOS.init({
+
+        once: true, // Animasi hanya terjadi sekali ketika discroll
+        mirror: false,
+      });
+    </script>
   </body>
 </html>
