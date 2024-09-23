@@ -37,7 +37,7 @@
       }
     </style>
   </head>
-  <body class="relative">
+  <body class="relative w-full box-border">
     <div class="grid-rows-3 gird">
       <!-- header -->
       <header data-aos="fade-down" class="w-full relative">
@@ -125,24 +125,24 @@
         <section
           class="lg:flex lg:flex-row flex flex-col md:flex-row md:flex justify-center lg:gap-2 h-max w-full md:gap-2"
         >
-          <div class="lg:w-1/2 bg-purple-300 lg:pl-3 lg:pb-4 pr-2 pb-4 w-full md:pl-4">
+          <div class="lg:w-1/2 bg-purple-300 lg:pl-3 lg:pb-4 pr-2 pb-4 w-full md:pl-4 box-border">
             <div
               data-aos="fade-up"
               data-aos-duration="1000"
               class="w-full h-max capitalize text-nowrap text-center md:text-start lg:text-start"
             >
-              <h1 class="lg:text-8xl text-6xl w-full">personalized</h1>
-              <h1 class="lg:text-8xl text-6xl w-full">care for</h1>
-              <h1 class="lg:text-8xl text-6xl w-full">chronic pain</h1>
+              <h1 class="lg:text-8xl text-5xl w-full">personalized</h1>
+              <h1 class="lg:text-8xl text-5xl w-full">care for</h1>
+              <h1 class="lg:text-8xl text-5xl w-full">chronic pain</h1>
             </div>
 
             <div
               data-aos="fade-right"
               data-aos-delay="500"
-              class="flex text-wrap justify-center items-center lg:w-10/12 p-2 mt-2 md:w-10/12"
+              class="flex text-wrap justify-center items-center w-10/12 lg:w-10/12 p-2 mt-2 md:w-10/12 mx-auto lg:mx-0"
             >
               <img src="img/siluet.png" alt="" class="w-16 h-16 mr-4 animate-spin" />
-              <p class="text-justify text-xs lg:text-base oswald-explain">
+              <p class="text-justify text-xs lg:text-base oswald-explain w-full">
                 Lorem ipsum, dolor sit amet consectetur adipisicing elit. Culpa commodi odit at vero
                 explicabo repellendus cupiditate ducimus. Autem, sed quam.
               </p>
@@ -293,61 +293,130 @@
         <section class="w-full flex flex-col justify-center mt-5 bg-blue-200">
           <div class="flex flex-col justify-center mt-3 mb-2">
             <div class="my-0 mx-auto">
-              <p class="w-max bg-purple-300 py-1 px-4">services</p>
+              <p class="w-max bg-purple-300 py-1 px-4 lg:py-2 lg:px-6 lg:text-xl">services</p>
             </div>
-            <h1 class="text-2xl capitalize font-semibold text-center">how we help our client</h1>
+            <h1 class="text-2xl lg:text-5xl font-serif capitalize bg-white w-max mx-auto py-2 px-3 text-center lg:mt-4">how we help our client</h1>
           </div>
 
-          <div class="p-5 flex flex-col gap-5">
-            <div class="border border-slate-800">
+          <div class="p-5 flex flex-col gap-5 lg:flex lg:flex-row lg:p-6">
+            <div
+            data-aos="flip-left"
+            data-aos-duration="1000"
+            data-aos-delay="300"
+             class="border border-slate-800 lg:w-1/4 bg-white">
               <div>
-                <img src="img/service (4).jpg" alt="" class="bg-cover" />
+                <img src="img/service (4).jpg" alt="" class="bg-cover shadow-sm" />
               </div>
 
               <div class="p-4">
                 <div class="flex w-full relative items-center">
-                  <h1 class="text-xl capitalize bg-slate-900 w-max text-white p-1">
+                  <h1 class="text-xl capitalize bg-slate-900 w-max text-white p-1 lg:text-2xl">
                     lower back pain
                   </h1>
-                  <h1 class="w-max bg-white text-slate-700 px-2 absolute right-0">case</h1>
+                  <h1 class="w-max font-semibold text-slate-700 px-2 absolute right-0">case</h1>
                 </div>
 
-                <p class="text-justify">
+                <p class="text-justify lg:text-xl lg:py-3">
                   Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptate corporis
                   dolorum officia, recusandae iusto blanditiis quas velit repellendus, temporibus
                   voluptatibus saepe eos sunt cupiditate voluptatem tempore quaerat earum sint odit.
                   <span
-                    class="font-semibold bg-slate-900 w-max ml-2 text-white cursor-pointer hover:bg-white hover:text-slate-900"
-                    ><a href="">learn more</a></span
+                    class="font-semibold w-max ml-2 text-blue-800 cursor-pointer hover:bg-white hover:text-slate-900"
+                    ><a href="" class="font-semibold font-mono">learn more</a></span
                   >
                 </p>
               </div>
             </div>
-            <div class="border border-slate-800">
+
+            <div
+            data-aos="flip-left"
+            data-aos-duration="1000"
+            data-aos-delay="500"
+             class="border border-slate-800 lg:w-1/4 bg-white">
               <div>
-                <img src="img/service (1).jpg" alt="" class="bg-cover" />
+                <img src="img/service (1).jpg" alt="" class="bg-cover shadow-sm" />
               </div>
 
               <div class="p-4">
                 <div class="flex w-full relative items-center">
-                  <h1 class="text-xl capitalize bg-slate-900 w-max text-white p-1">
+                  <h1 class="text-xl lg:text-2xl capitalize bg-slate-900 w-max text-white p-1">
                     upper back pain
                   </h1>
-                  <h1 class="w-max bg-white text-slate-700 px-2 absolute right-0">case</h1>
+                  <h1 class="w-max font-semibold bg-white text-slate-700 px-2 absolute right-0">case</h1>
                 </div>
 
-                <p class="text-justify">
+                <p class="text-justify lg:text-xl lg:py-3">
                   Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptate corporis
                   dolorum officia, recusandae iusto blanditiis quas velit repellendus, temporibus
                   voluptatibus saepe eos sunt cupiditate voluptatem tempore quaerat earum sint odit.
                   <span
-                    class="font-semibold bg-slate-900 w-max ml-2 text-white cursor-pointer hover:bg-white hover:text-slate-900"
-                    ><a href="">learn more</a></span
+                    class="font-semibold w-max ml-2 text-blue-800 cursor-pointer hover:bg-white hover:text-slate-900"
+                    ><a href="" class="font-semibold font-mono">learn more</a></span
                   >
                 </p>
               </div>
             </div>
+
+            <div
+            data-aos="flip-left"
+            data-aos-duration="1000"
+            data-aos-delay="700"
+             class="border border-slate-800 lg:w-1/4 bg-white">
+              <div>
+                <img src="img/service (1).jpg" alt="" class="bg-cover shadow-sm" />
+              </div>
+
+              <div class="p-4">
+                <div class="flex w-full relative items-center">
+                  <h1 class="text-xl lg:text-2xl capitalize bg-slate-900 w-max text-white p-1">
+                    upper back pain
+                  </h1>
+                  <h1 class="w-max font-semibold bg-white text-slate-700 px-2 absolute right-0">case</h1>
+                </div>
+
+                <p class="text-justify lg:text-xl lg:py-3">
+                  Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptate corporis
+                  dolorum officia, recusandae iusto blanditiis quas velit repellendus, temporibus
+                  voluptatibus saepe eos sunt cupiditate voluptatem tempore quaerat earum sint odit.
+                  <span
+                    class="font-semibold w-max ml-2 text-blue-800 cursor-pointer hover:bg-white hover:text-slate-900"
+                    ><a href="" class="font-semibold font-mono">learn more</a></span
+                  >
+                </p>
+              </div>
+            </div>
+
+            <div
+            data-aos="flip-left"
+            data-aos-duration="1000"
+            data-aos-delay="900"
+             class="border border-slate-800 lg:w-1/4 bg-white">
+              <div>
+                <img src="img/service (1).jpg" alt="" class="bg-cover shadow-sm" />
+              </div>
+
+              <div class="p-4">
+                <div class="flex w-full relative items-center">
+                  <h1 class="text-xl lg:text-2xl capitalize bg-slate-900 w-max text-white p-1">
+                    upper back pain
+                  </h1>
+                  <h1 class="w-max font-semibold bg-white text-slate-700 px-2 absolute right-0">case</h1>
+                </div>
+
+                <p class="text-justify lg:text-xl lg:py-3">
+                  Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptate corporis
+                  dolorum officia, recusandae iusto blanditiis quas velit repellendus, temporibus
+                  voluptatibus saepe eos sunt cupiditate voluptatem tempore quaerat earum sint odit.
+                  <span
+                    class="font-semibold w-max ml-2 text-blue-800 cursor-pointer hover:bg-white hover:text-slate-900"
+                    ><a href="" class="font-semibold font-mono">learn more</a></span
+                  >
+                </p>
+              </div>
+            </div>
+
           </div>
+
         </section>
 
         <!-- testimonials -->
@@ -365,11 +434,11 @@
     <script src="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.js"></script>
 
     <script>
-      AOS.init({
+         AOS.init({
+          once: true
+         })
 
-        once: true, // Animasi hanya terjadi sekali ketika discroll
-        mirror: false,
-      });
+  
     </script>
   </body>
 </html>
