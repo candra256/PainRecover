@@ -26,7 +26,26 @@ document.addEventListener('click', function(event) {
 //_____________________________________________________________ 🔼
 
 
+//_____________________________________________________________ 🔽
+
+const images = [
+    '/public/img/pain2.jpg',
+    '/public/img/pain1.jpg',
+    '/public/img/pain3.jpg'
+]
 
 
+let currentIndex = 0
+
+function changeImage(){
+    const imgElement = document.getElementById('dynamic')
+    currentIndex = (currentIndex + 1) % images.length
+    imgElement.src = images[currentIndex]
+
+}
+
+setInterval(changeImage , 3000)
+
+//_____________________________________________________________ 🔼
 
   
