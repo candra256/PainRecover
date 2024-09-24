@@ -28,23 +28,23 @@ document.addEventListener('click', function(event) {
 
 //_____________________________________________________________ 🔽
 
-const images = [
-    '/public/img/pain2.jpg',
-    '/public/img/pain1.jpg',
-    '/public/img/pain3.jpg'
-]
+// const images = [
+//     '/img/pain2.jpg',
+//     '/img/pain1.jpg',
+//     '/img/pain3.jpg'
+// ]
 
 
-let currentIndex = 0
+// let currentIndex = 0
 
-function changeImage(){
-    const imgElement = document.getElementById('dynamic')
-    currentIndex = (currentIndex + 1) % images.length
-    imgElement.src = images[currentIndex]
+// function changeImage(){
+//     const imgElement = document.getElementById('dynamic')
+//     currentIndex = (currentIndex + 1) % images.length
+//     imgElement.src = images[currentIndex]
 
-}
+// }
 
-setInterval(changeImage , 3000)
+// setInterval(changeImage , 3000)
 
 //_____________________________________________________________ 🔼
 
