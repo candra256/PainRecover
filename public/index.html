@@ -490,7 +490,7 @@
         <section class="w-full flex flex-col mt-5 bg-blue-700 p-6">
           <div class="w-full mt-4">
             <h1
-              class="text-center lg:text-4xl md:text-4xl capitalize font-semibold text-2xl bg-white font-serif w-max my-0 mx-auto px-3 text-slate-950 py-2"
+              class="text-center lg:text-4xl md:text-4xl capitalize font-semibold text-xl bg-white font-serif w-max my-0 mx-auto lg:px-3 p-2 text-slate-950 py-2"
             >
               what people say about us
             </h1>
@@ -589,7 +589,9 @@
     <!-- aos js -->
     <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
     <script>
-      AOS.init();
+      AOS.init({
+        once:true
+      });
     </script>
 
     <!-- script -->
